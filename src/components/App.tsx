@@ -2,7 +2,7 @@ import React from "react";
 import { createStore, applyMiddleware } from "redux";
 import rootReducer from "../reducers";
 import { Provider } from "react-redux";
-import SummerTime from "./SummerTime";
+import SummerTime from "./pages/SummerTime";
 import tickMiddleware from "../tick-middleware";
 
 import { DateTime } from "luxon";

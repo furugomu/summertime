@@ -41,9 +41,6 @@ const Clock = ({ datetime = DateTime.local() }: Props) => (
       stroke="red"
       transform={`rotate(${secondDeg(datetime)} 128 128)`}
     />
-    <text>
-      {datetime.second}.{datetime.millisecond}
-    </text>
   </svg>
 );
 
